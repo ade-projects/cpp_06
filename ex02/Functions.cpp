@@ -6,7 +6,7 @@
 /*   By: adeestev <adeestev@student.42urduliz.com>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/29 11:46:18 by adeestev          #+#    #+#             */
-/*   Updated: 2026/09/29 13:13:55 by adeestev         ###   ########.fr       */
+/*   Updated: 2026/10/03 17:54:16 by adeestev         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,7 +54,7 @@ void identify(Base& p)
 	}
 	catch (const std::exception&) {}
 
-		try
+	try
 	{
 		B& b = dynamic_cast<B&>(p);
 		(void)b;
@@ -63,7 +63,7 @@ void identify(Base& p)
 	}
 	catch (const std::exception&) {}
 
-		try
+	try
 	{
 		C& c = dynamic_cast<C&>(p);
 		(void)c;
@@ -72,5 +72,5 @@ void identify(Base& p)
 	}
 	catch (const std::exception&) {}
 
-	std::cout << "Unknow type" << std::endl;	
+	std::cout << "Unknown type" << std::endl;	
 }

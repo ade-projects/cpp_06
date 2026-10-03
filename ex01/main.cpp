@@ -6,7 +6,7 @@
 /*   By: adeestev <adeestev@student.42urduliz.com>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/24 15:16:24 by adeestev          #+#    #+#             */
-/*   Updated: 2026/09/28 12:45:20 by adeestev         ###   ########.fr       */
+/*   Updated: 2026/10/03 17:53:54 by adeestev         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,7 +54,7 @@ int main(void)
 	}
 	else
 	{
-		std::cout << "Deserialized pointer doesn't match the oginal one." << std::endl;
+		std::cout << "Deserialized pointer doesn't match the original one." << std::endl;
 	}
 	std::cout << std::endl;
 
